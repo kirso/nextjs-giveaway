@@ -21,6 +21,7 @@ specifiers:
   next: 12.1.6
   postcss: ^8.4.14
   prettier: 2.6.2
+  prettier-plugin-tailwindcss: ^0.1.11
   react: 18.1.0
   react-dom: 18.1.0
   react-query: ^3.39.1
@@ -57,6 +58,7 @@ devDependencies:
   eslint-plugin-prettier: 4.0.0_ucegkljdju7q4zmvwxzqoprf3y
   postcss: 8.4.14
   prettier: 2.6.2
+  prettier-plugin-tailwindcss: 0.1.11_prettier@2.6.2
   tailwindcss: 3.1.0
   typescript: 4.7.3
 
@@ -2079,6 +2081,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.1.11_prettier@2.6.2:
+    resolution: {integrity: sha512-a28+1jvpIZQdZ/W97wOXb6VqI762MKE/TxMMuibMEHhyYsSxQA8Ek30KObd5kJI2HF1ldtSYprFayXJXi3pz8Q==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.6.2
     dev: true
 
   /prettier/2.6.2:

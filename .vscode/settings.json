@@ -11,5 +11,5 @@
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.validate": true,
 
-  "prettier.configPath": "./prettierrc",
+  "prettier.configPath": "./prettier.config.js",
 }
